@@ -9,10 +9,11 @@ main {
 	padding: 1em;
 }
 h1 {
-	font-size: 1em;
-
+	font-size: 1.3em;
+	font-weight: lighter;
 }
 p {
 	color: hotpink;
-	font-style: thin;
+	font-weight: lighter;
+	font-size: 2em;
 }
