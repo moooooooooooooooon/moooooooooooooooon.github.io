@@ -1,19 +1,157 @@
+/* Designer As Author */
+
 body {
 	margin: 0;
 	padding: 0;
-	background:lightpink;
+	font-family: Roboto, helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: black;
+	background-color: white;
+	color: #282828;
+	position: relative;
+}
+
+article {
+	width: 100%;
+	max-width: 50em;
+	margin: 0 auto;
+	line-height: 1.5em;
+	margin-top: 5em;
+}
+
+header{
+	margin-top: -35em;
+	width: 100%;
 	color: white;
-	font-family: Helvetica, arial, sans-serif;
+	text-align: center;
+	margin-bottom: 1.3em;
+	background-size: cover;
+	padding-top: 85vh;
+	padding-bottom: -5vh;
 }
-main {
-	padding: 1em;
+
+header img, .BTS-background {
+  	background: center; top;
+  	margin: 0;
+  	width: 100%;
+  	height: 100%;
+  	padding-top: -50em;
+  	padding-bottom: 0vh;
 }
+
 h1 {
-	font-size: 1.3em;
+	font-size: 3.5em;
 	font-weight: lighter;
+	margin: 0;
+	text-align: center;
+	position: bottom;
+	color: #a6d6ff;
+	margin-top: 0.5em;
+	margin-bottom: 1.3em;
 }
+
+h2 {
+	font-size: 2.6em;
+	font-weight: lighter;
+	margin: 0;
+	text-align: center;
+	color: #ffaee1;
+	position: top;
+	margin-top: -1.5em;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: lighter;
+	margin: 0;
+	text-align: center;
+	position: top;
+	color: #d48cff;
+	margin-top: 0.6em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: lighter;
+	margin: 0;
+	text-align: left;
+	position: top;
+	color: #33468a;
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+}
+
 p {
-	color: hotpink;
+	margin: 0;
+	margin-bottom: 2.5em;
+	text-indent: 2em;
+	max-width: 100%;
+	line-height: 1.5em;
 	font-weight: lighter;
-	font-size: 2em;
+	font-size: 1.2em;
 }
+
+.right {
+	margin-left: 8em;
+	text-align: center;
+	margin-top: -8em;
+	font-size: 1.7em;
+	font-style: italic;
+	color: #cd7a58;
+}
+
+.link {
+	margin-top: -2em;
+	font-size: 0.9em;
+	color: #35a9ff;
+	text-align: center;
+}
+
+img {
+	align-content: center;
+	margin-left: -7.5em;
+	margin-bottom: 2.5em;
+}
+
+iframe {
+	align-content: center;
+}
+
+a {
+	margin-left: 6.7em;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+.lines {
+	align-content: center;
+	margin-left: 5em;
+	margin-bottom: -5em;
+}
+
+.dimple {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: -30em;
+}
+
+.micdrop {
+	margin-left: -19em;
+}
+
+.micdrop2 {
+	margin-left: 34em;
+	margin-top: -15.7em;
+}
+
+.BTS {
+	margin-left: 10em;
+	margin-top: 3.5em;
+	margin-bottom: 3em;
+}
+
