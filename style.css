@@ -1,26 +1,108 @@
 body {
 	margin: 0;
 	padding: 0;
-	background:white;
+	background: white;
 	color: white;
-	font-family: Helvetica, arial, sans-serif;
+	background-image: url(images/background.jpg);
+	font-family: Keep Calm Medium, Helvetica, arial, sans-serif;
+	position: relative;
+	width: 100%
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d2d2d2;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 1.7em;
+}
+
+.topnav a {
+  float: left;
+  color: #1947BA;
+  text-align: center;
+  padding: 14px 78px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1947ba;
+  color: white;
 }
 
 header {
 	width: 100%;
 	color: white;
-	text-align: center;
-	margin-bottom: 7em;
-	background-image: url(images/background.jpg);
 	background-size: cover;
 	background-position: bottom;
-	padding-top: 40vh;
-	padding-bottom: 10vh;
+}
+
+div {
+	margin: 0;
+}
+
+.logo {
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+	margin-left: -1em;
+
+}
+
+.NOTICE {
+	left: 0;
+	top: 531px;
+	padding: 60px 5px 13px 30px;
+	width: 380px;
+	height: 170px;
+
+}
+
+.intro {
+	width: 57%;
+	margin-top: -22.7em;
+	margin-left: 35em;
+}
+
+img {
+	width: 40%;
+	margin-left: 15em;
 }
 
 h1 {
-	font-size: 1.3em;
+	font-size: 1em;
+	color: #1947ba;
+	margin-top: -18em;
+	margin-left: 34em;
+	text-align: center;
+	margin-bottom: 1em;
+	line-height: 2em;
+}
+
+h2 {
+	font-size: 0.9em;
 	font-weight: lighter;
+	color: #1947ba;
+	margin-top: 0em;
+	margin-left: 38em;
+	text-align: center;
+	margin-bottom: 1.5em;
+	line-height: 2em;
+}
+
+h3 {
+	font-size: 0.8em;
+	color: #1947ba;
+	margin-top: 0em;
+	margin-left: 43em;
+	text-align: center;
+	margin-bottom: 1.5em;
+	line-height: 2em;
 }
 
 p {
@@ -28,3 +110,5 @@ p {
 	font-weight: lighter;
 	font-size: 2em;
 }
+
+
