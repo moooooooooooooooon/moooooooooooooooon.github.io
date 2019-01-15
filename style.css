@@ -9,11 +9,14 @@ body {
 	width: 100%
 }
 
+main {
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 1em;
+}
 .topnav {
   overflow: hidden;
   background-color: #d2d2d2;
-  margin-left: 15em;
-  margin-right: 15em;
   margin-bottom: 1.7em;
 }
 
@@ -45,6 +48,7 @@ header {
 
 div {
 	margin: 0;
+	padding: 0;
 }
 
 .logo {
@@ -65,20 +69,15 @@ div {
 
 .intro {
 	width: 57%;
-	margin-top: -22.7em;
-	margin-left: 35em;
 }
 
 img {
-	width: 40%;
-	margin-left: 15em;
+	max-width: 100%;
 }
 
 h1 {
 	font-size: 1em;
 	color: #1947ba;
-	margin-top: -18em;
-	margin-left: 34em;
 	text-align: center;
 	margin-bottom: 1em;
 	line-height: 2em;
@@ -89,7 +88,6 @@ h2 {
 	font-weight: lighter;
 	color: #1947ba;
 	margin-top: 0em;
-	margin-left: 38em;
 	text-align: center;
 	margin-bottom: 1.5em;
 	line-height: 2em;
@@ -99,7 +97,6 @@ h3 {
 	font-size: 0.8em;
 	color: #1947ba;
 	margin-top: 0em;
-	margin-left: 43em;
 	text-align: center;
 	margin-bottom: 1.5em;
 	line-height: 2em;
@@ -110,5 +107,20 @@ p {
 	font-weight: lighter;
 	font-size: 2em;
 }
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-content > * { 
+	width: 100%;
+}
+.intro {
+	background: white;
+}
 
-
+@media (min-width: 50em) {
+	.home-content > * { 
+		width: 50%;
+	}
+}
+}
